@@ -1,0 +1,301 @@
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fad28a;
+    background-color: #ac5f1e;
+    border: dashed 4px #c2b697;
+    padding: 20px;
+    
+}
+
+.nav-list {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: double 6px #c2b697;
+    background-color: #ac5f1e;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+
+    justify-content: space-around;
+    
+}
+
+a:link {
+	color: #84b7eb;
+              text-decoration:none;
+}
+a:hover {
+	color: #054688;
+              text-decoration:none;
+}
+a:visited {
+	color: #e7decc;
+              text-decoration:none;
+}
+a:active {
+	color: #339966;
+              text-decoration:none;
+}
+
+.ht {
+    font-size: 325%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFCC66;
+    text-align: center;
+    margin: 10px 350px;
+    padding:10px
+        
+    
+}
+
+body {
+    background-image: url(Nederlands-bos-in-de-herfst.jpg);
+}
+
+h3 {
+    color: #FFCC66;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px 30px;
+    border: double #dac7aa 4px;
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: #756853;
+    border-radius: 20px;
+} 
+
+p {
+    color: #FFCC66;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #756853;
+    margin: 10px 800px 10px 5px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.wand {
+    background-color: #756853;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFCC66;
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 600px;
+    margin: 10px;
+}
+
+h2 {color: #FFCC66;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 30px;
+    border: double #dac7aa 4px;
+    margin: 60px;
+    text-align: center;
+    background-color: #756853;
+    border-radius: 20px;
+
+}
+
+form { color: #FFCC66;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 30px;
+    border: double #dac7aa 4px;
+    width: 800px;
+    margin: 5px 600px;
+    text-align: center;
+    background-color: #756853;
+    border-radius: 20px;
+
+}
+
+.ft {
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 320px) {
+    h3 {
+        width: 275px;
+        padding: auto;
+        margin: auto;
+    }
+    .ht {
+        font-size: 225%;
+        padding: auto;
+        margin: auto;
+
+    }
+
+    p{
+        width: 400px;
+        padding: auto;
+        margin: auto;
+        font-size: x-large;
+    }
+    
+    .wand {
+        width: 250px;
+        margin: auto;
+        padding: auto;
+        font-size: 200%;
+    }
+
+    h2 {width: 265px;
+        padding: auto;
+        margin: auto;
+
+    }
+
+    form {
+    
+        margin: auto;
+        padding: auto;
+        font-size: 170%;
+    }
+
+    .nav-list {
+        font-size: 200%;
+        margin: auto;
+        padding: auto;
+       
+
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    h3 {
+        width: 800px;
+        padding: auto;
+        margin: auto;
+        
+    }
+
+    p{
+        width: 800px;
+        padding: auto;
+        margin: auto;
+        font-size: 90%;
+    }
+    
+    .wand {
+        width: 800px;
+        margin: auto;
+        font-size: 160%;
+
+    }
+    h2 {width: 800px;
+        padding: auto;
+        margin: auto;
+
+    }
+
+    form {
+        margin: auto;
+        padding: auto;
+        font-size: 140%;
+    }
+
+    .nav-list {
+        font-size: 140%;
+       margin: auto;
+       padding: auto;
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    h3 {
+        width: 1100px;
+        padding: auto;
+        margin: auto;
+        
+    }
+
+    p{
+        width: 1100px;
+        padding: auto;
+        margin: auto;
+        font-size: 110%;
+        
+    }
+    
+    .wand {
+        width: 1070px;
+        margin: auto;
+        font-size: 110%;
+
+    }
+
+    h2 {
+        width: 1060px;
+        padding: auto;
+        margin: auto;
+    }
+
+    form {
+        margin: auto;
+        padding: auto;
+        font-size: 110%;
+    }
+
+    .nav-list {
+        font-size: 130%;
+        margin: auto;
+        padding: auto;
+
+    }
+}
+
+@media screen and (min-width: 2900px) {
+    h3 {
+        width: 2020px;
+        padding: auto;
+        margin: auto ;
+        font-size: 150%;
+        
+    }
+
+    p{
+        width: 2000px;
+        padding: auto;
+        margin: auto;
+        font-size: 125%;
+    }
+    
+    .wand {
+        width: 1960px;
+        margin: auto;
+        font-size: 125%;
+        padding: auto;
+
+    }
+    .nav-list {
+        font-size: 175%;
+        margin: auto;
+        padding: auto;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+
+    h2 { width: 1960px;
+        padding: auto;
+        margin: auto ;
+        font-size: 200%;
+
+    }
+
+    form {
+        margin: auto;
+        padding: auto;
+        font-size: 125;
+    }
+}

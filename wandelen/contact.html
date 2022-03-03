@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Conact formulier
+    </title>
+</head>
+
+<header>
+    <h1> 
+        Wandelen met Kinderen Bollenstreek.
+    </h1>
+
+    <nav>
+        <ul class="nav-list">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="wandel.html">Wandel routes</a>
+            </li>
+            <li> 
+                <a href="advies.html">Tips voor het wandelen</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </nav> <br><br><br><br>
+
+</header>
+
+<body>
+    
+    <h2>Contact Formulier</h2> <br><br>
+
+        <form name="contact" method="post" data-netlify="true">
+            <label for="vnaam">Voornaam</label>
+            <input type="text" id="vnaam" name="vnaam"><br><br>
+            <label for="anaam">Achternaam</label>
+            <input type="text" id="anaam" name="anaam"> <br><br>
+            <label for="bday">Geboortedatum</label>
+            <input type="date" id="bday" name="bday"><br><br>
+            Favoriete Wandel gebied <br>
+            <input type="radio" name="Oase" id="Oase">
+            <label for="Oase">Oase</label><br>
+            <input type="radio" name="panneland" id="panneland">
+            <label for="panneland">Panneland</label><br>
+            <input type="radio" name="panbos" id="panbos">
+            <label for="panbos">Panbos</label><br>
+            <input type="radio" name="meijendel" id="meijendel">
+            <label for="meijendel">Meijendel</label> <br><br>
+            Met wie gaat u vaak wandelen? <br>
+            <input type="checkbox" name="kids" id="kids">
+            <label for="kids">Met me kinderen</label><br>
+            <input type="checkbox" name="gezin" id="gezin">
+            <label for="gezin">met het hele gezin</label><br>
+            <input type="checkbox" name="alleen" id="alleen">
+            <label for="alleen">Alleen</label><br>
+            <input type="checkbox" name="hond" id="hond">
+            <label for="hond">Met je hond</label><br>
+            <input type="checkbox" name="vrienden" id="vrienden">
+            <label for="vrienden">samen met je vrienden</label><br><br>
+            <label for="vaak">Hoe vaak ga je wandelen in de week</label>
+            <input type="number" name="vaak" id="vaak" min="0" max="10"> <br><br>
+            <label for="natuur">Mooie Natuurfoto</label>
+            <input type="file" name="natuur" id="natuur"><br><br>
+            <label for="info">Schrijf hier een ervaring met het wandelen met kinderen</label><br>
+            <textarea name="info" id="" cols="50" rows="10"></textarea><br><br>
+            
+            <input type="reset" value="reset">
+            <input type="submit" value=" Verzenden">
+
+
+        </form>
+    
+</body><br><br><br>
+
+<footer>
+    <p class="ft">
+         &copy; Desiree Hoogervorst <br>
+     </p>
+    
+ </footer>
+
+
+<link rel="stylesheet" href="style.css">
+</html>
